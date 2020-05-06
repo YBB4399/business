@@ -1,2 +1,18 @@
 server:
   port: 8082
+  
+  
+spring:
+  application:
+    name: cart
+  rabbitmq:
+    host: 121.199.72.187
+    port: 5672
+    username: zx
+    password: Zx0417cy
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+      profile: dev
