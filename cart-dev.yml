@@ -10,9 +10,3 @@ spring:
     port: 5672
     username: zx
     password: Zx0417cy
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: CONFIG-SERVER
-      profile: dev
