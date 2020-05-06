@@ -1,7 +1,5 @@
 server:
   port: 8082
-  
-  
 spring:
   application:
     name: cart
@@ -10,3 +8,4 @@ spring:
     port: 5672
     username: zx
     password: Zx0417cy
+env: dev    
