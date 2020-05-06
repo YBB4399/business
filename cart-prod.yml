@@ -1,4 +1,11 @@
 server:
   port: 9000
-  
+
+spring:
+  application:
+  rabbitmq:
+    host: 121.199.72.187
+    port: 5672
+    username: zx
+    password: Zx0417cy
 env: prod
