@@ -39,5 +39,6 @@ redis:
   redisPassword: Zx0417cy
   timeout: 1000
 
+
 resetpassword:
   timeout: 60
