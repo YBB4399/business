@@ -1,10 +1,1 @@
-server:
-  port: 8082
-spring:
-  application:
-  rabbitmq:
-    host: 121.199.72.187
-    port: 5672
-    username: zx
-    password: Zx0417cy
-env: dev12
+
