@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    druid:
+   druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/shopping?characterEncoding=utf8&serverTimezone=Asia/Shanghai
+      url: jdbc:mysql://localhost:3306/business?characterEncoding=utf8&serverTimezone=Asia/Shanghai
       username: root
       password: 123456
       max-active: 20
@@ -16,9 +16,9 @@ spring:
       test-on-return: true
   redis:
     database: 0
-    host: 121.199.72.187
+    host: 101.200.201.14
     port: 6379
-    password: Zx0417cy
+    password: WuLiao.112
     jedis:
       pool:
         max-active: 1
@@ -29,10 +29,10 @@ spring:
     
 mybatis:
   mapper-locations: classpath*:com/xc/mapper/*Mapper.xml
-  config-location: classpath:mybatis-config.xml  
+  config-location: classpath:mybatis-config.xml
         
-  rabbitmq:
-    host: 121.199.72.187
+ rabbitmq:
+    host: 101.200.201.14
     port: 5672
-    username: zx
-    password: Zx0417cy
+    username: root
+    password: WuLiao.112
