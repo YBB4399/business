@@ -20,7 +20,7 @@ spring:
     username: root
     password: WuLiao.112
 mybatis:
-  mapper-locations: classpath*:com/neuedu/mapper/*Mapper.xml
+  mapper-locations: classpath*:com/xc/mapper/*Mapper.xml
   config-location: classpath:mybatis-config.xml
 
 
