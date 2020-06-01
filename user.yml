@@ -15,10 +15,10 @@ spring:
       test-on-borrow: true
       test-on-return: true
   rabbitmq:
-    host: 121.199.72.187
+    host: 101.200.201.14
     port: 5672
-    username: zx
-    password: Zx0417cy  
+    username: root
+    password: WuLiao.112
 mybatis:
   mapper-locations: classpath*:com/neuedu/mapper/*Mapper.xml
   config-location: classpath:mybatis-config.xml
