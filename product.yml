@@ -1,6 +1,6 @@
 server:
   port: 9002
-  
+
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -30,8 +30,8 @@ spring:
 mybatis:
   mapper-locations: classpath*:com/xc/mapper/*Mapper.xml
   config-location: classpath:mybatis-config.xml
-        
- rabbitmq:
+  
+  rabbitmq:
     host: 101.200.201.14
     port: 5672
     username: root
