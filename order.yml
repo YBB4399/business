@@ -19,7 +19,7 @@ spring:
     port: 5672
     username: root
     password: WuLiao.112
- redis:
+  redis:
     database: 0
     host: 101.200.201.14
     port: 6379
